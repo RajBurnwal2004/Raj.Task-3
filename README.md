@@ -1,6 +1,7 @@
 # Raj.Task-3
 Purpose:
 The given webapp performs customer segmentation based on demographics and behavioral attributes-such as age, income, spending habits, and product preferences - that can effectively capture patterns in customer behavior.
+
 Key Features :
 1) Sidebar slider to dynamically select the number of customer segments (k) from 2 to 10.
 2) Visualizes clusters in a 2D scatter plot.
