@@ -9,5 +9,6 @@ Key Features :
 5) Displays the dataset with cluster labels added.
 6) Shows mean values of features for each cluster (segment).
 7) Gives business recommendations per segment.
+
 Link to the hosted app on Streamlit Cloud:
 https://2584-34-106-7-115.ngrok-free.app/
