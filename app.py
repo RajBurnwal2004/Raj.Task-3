@@ -16,8 +16,8 @@ The dashboard includes visualizations like charts, scatter plots, and summaries 
 It also provides clear, interpretable insights into the characteristics and business relevance of each identified customer group.
 """)
 
-file_path = '/content/drive/MyDrive/Customer_Segmentation_Dataset.csv'
-df = pd.read_csv(file_path, sep=',')
+df = pd.read_csv("https://raw.githubusercontent.com/RajBurnwal2004/Raj.Task-3/main/Customer_Segmentation_Dataset.csv")
+
 
 df.drop_duplicates(inplace=True)
 df.dropna(inplace=True)
@@ -40,7 +40,7 @@ X_scaled = scaler.fit_transform(df_encoded)
 st.sidebar.header("Segmentation Controls")
 k = st.sidebar.slider("Select number of customer segments", 2, 10, 4)
 
-kmeans = KMeans(n_clusters=k, random_state=42)
+kmeans = KMeans(n_clusters=k, random_state=42, n_init='auto')
 df_encoded['Cluster'] = kmeans.fit_predict(X_scaled)
 
 pca = PCA(n_components=2)
