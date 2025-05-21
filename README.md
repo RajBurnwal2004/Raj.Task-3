@@ -12,4 +12,4 @@ Key Features :
 7) Gives business recommendations per segment.
 
 Link to the hosted app on Streamlit Cloud:
-https://5ef0-34-125-183-197.ngrok-free.app/
+https://rajtask-3-veilpxrnvupggcnyltgxzj.streamlit.app/
