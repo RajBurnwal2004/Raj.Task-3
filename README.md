@@ -1,4 +1,4 @@
-# Raj.Task-3
+# Customer_Segmentation_Dashboard
 Purpose:
 The given webapp performs customer segmentation based on demographics and behavioral attributes-such as age, income, spending habits, and product preferences - that can effectively capture patterns in customer behavior.
 
